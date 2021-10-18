@@ -13,9 +13,16 @@
 .pointer{
   cursor: pointer;
 }
+.tabela th, .tabela td{
+  width: 19%;
+  text-align: center;  
+}
 .tabela th{
-  width: 30%;
   background-color: #f0f0f0;
+}
+.tabela th:first-child, .tabela td:first-child{
+  width: 5%;
+  text-align: center;
 }
 .tabela td, .tabela th{
   border-bottom:1px solid #DDDDDD;

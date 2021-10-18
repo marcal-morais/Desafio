@@ -13,23 +13,23 @@ function Summary() {
       </div>
       <div className="boxBody">
         <div className="containerTabela">
-          <table className="tabela">
+          <table className="tabelaSumario">
             <tbody>
               <tr>
                 <th scope="row">Servidores Selecionados</th>
-                <td>{total.servidores}</td>
+                <td>{total.servidores} servidores selecionados</td>
               </tr>
               <tr>
                 <th scope="row">Total de Memória</th>
-                <td>{total.memoria}</td>
+                <td>{total.memoria} GB</td>
               </tr>
               <tr>
                 <th scope="row">Total de CPUs</th>
-                <td>{total.cpu}</td>
+                <td>{total.cpu} vCPUs</td>
               </tr>
               <tr>
                 <th scope="row">Total de Discos</th>
-                <td>{total.discos}</td>
+                <td>{total.discos} GB</td>
               </tr>
             </tbody>
           </table>

@@ -105,9 +105,9 @@ function ServersTable() {
                         onChange={() => checkItem(item)} />
                     </td>
                     <td>{item.hostname}</td>
-                    <td>{item.configuracao.memoryProvisioned}</td>
-                    <td>{item.configuracao.cpuProvisioned}</td>
-                    <td>{item.configuracao.totalDiskGB}</td>
+                    <td>{item.configuracao.memoryProvisioned} GB</td>
+                    <td>{item.configuracao.cpuProvisioned} vCPUs</td>
+                    <td>{item.configuracao.totalDiskGB} GB</td>
                     <td>{item.ip}</td>
                   </tr>
                 )
