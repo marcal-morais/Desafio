@@ -10,7 +10,9 @@
   overflow:hidden;
   width: 100%;
 }
-
+.pointer{
+  cursor: pointer;
+}
 .tabela th{
   width: 30%;
   background-color: #f0f0f0;
