@@ -1,0 +1,21 @@
+.containerTabela{
+  border: 1px solid #DDDDDD;
+  width: 95%;
+  margin: 30px 0 30px;
+  border-radius: 10px;
+}
+.tabela{
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow:hidden;
+  width: 100%;
+}
+
+.tabela th{
+  width: 30%;
+  background-color: #f0f0f0;
+}
+.tabela td, .tabela th{
+  border-bottom:1px solid #DDDDDD;
+  padding: 5px 20px 5px 20px;
+}
